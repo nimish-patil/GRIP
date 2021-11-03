@@ -1,0 +1,99 @@
+body{
+	font-family: Ubuntu;
+	font-weight: 400;
+	color: #7f7f7f;
+	background-image: url("bank.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	position: relative;
+}
+.navbar-back{
+	padding-top: 1rem;
+	font-size: 1.5rem;
+	/*background-image: linear-gradient(to bottom, #EEEDFD, white);*/
+	background-color: transparent;
+	color:  ;
+}
+.footer{
+	position: absolute;
+	bottom: 0px;
+	margin-left: 42% !important;
+	padding-left: 0;
+}
+span i{
+	text-decoration: none;
+	color: black;
+}
+
+.text{
+	padding-left: 1rem;
+	font-size: 1.5rem;
+	padding-top: 1.3rem;
+}
+
+.button {
+  background-color: #EEEDFD;
+  border: 1px solid #9FA2FA;
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+	paddding: 2rem;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.main{
+	margin-top: 11rem;
+
+}
+a{
+	text-decoration: none;
+	color: #7f7f7f;
+}
+.table{
+	margin-top: 2rem;
+}
+.h2{
+	margin-top: 2rem;
+}
+
+table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: red;
+}
+
+.class{
+	display: inline;
+}
+
+.goBack{
+	margin-left: 14.6rem;
+	margin-top:2rem;
+}
