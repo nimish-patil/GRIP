@@ -1,10 +1,10 @@
 <?php 
 
 	// code for connecting with the database
-	$host = 'localhost';
-	$username = 'jdbc';
-	$passwd = 'jdbc@123';
-	$dbname = 'task1';
+	$host = 'host';
+	$username = 'Enter username';
+	$passwd = 'Enter your password';
+	$dbname = 'Enter database name';
 
 	$conn = mysqli_connect($host, $username, $passwd, $dbname);
 
